@@ -1,0 +1,70 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero";
+import Brands from "../components/Brands";
+import Feature from "../components/Features";
+import AboutSection from "../components/AboutSection";
+import FeaturesTab from "../components/FeaturesTab";
+import FunFact from "../components/FunFact";
+import Integration from "../components/Integration";
+import CTA from "../components/CTA";
+import FAQ from "../components/FAQ";
+import Testimonial from "../components/Testimonial";
+import Pricing from "../components/Pricing";
+import Contact from "../components/Contact";
+import Blog from "../components/Blog";
+import { getCollection } from "astro:content";
+
+const titles = await getCollection("sectionTitles");
+const brands = await getCollection("brands");
+const features = await getCollection("features");
+const aboutData = await getCollection("about");
+const featureTabs = await getCollection("featureTab");
+const stats = await getCollection("stats");
+const integrations = await getCollection("integrations");
+const faq = await getCollection("faq");
+const testimonials = await getCollection("testimonials");
+const prices = await getCollection("prices");
+const blogs = await getCollection("blogs");
+const config = await getCollection("siteConfig");
+const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <Hero data={titles[0]?.data?.hero} client:load />
+    <Brands
+      data={brands[0]?.data?.brandsDark}
+      dataLight={brands[0]?.data?.brandsLight}
+      client:load
+    />
+    <Feature data={features} titles={titles[0]?.data?.features} client:load />
+    <AboutSection
+      data={aboutData}
+      titles={titles[0]?.data?.about}
+      titlesSec={titles[0]?.data?.featureTab}
+      client:load
+    />
+    <FeaturesTab data={featureTabs} client:load />
+    <FunFact
+      titles={titles[0]?.data?.funFact}
+      stats={stats[0]?.data?.item}
+      client:load
+    />
+    <Integration
+      titles={titles[0]?.data?.integrations}
+      integrations={integrations[0]?.data?.integrations}
+      client:load
+    />
+    <CTA titles={titles[0]?.data?.cta} client:load />
+    <FAQ titles={titles[0]?.data?.faq} faq={faq} client:load />
+    <Testimonial
+      titles={titles[0]?.data?.testimonial}
+      testimonials={testimonials}
+      client:load
+    />
+    <Pricing titles={titles[0]?.data?.pricing} prices={prices} client:load />
+    <Contact accessKey={web3AccessKey} config={config[0]?.data} client:load />
+    <Blog titles={titles[0]?.data?.blogs} blogs={blogs} client:load />
+  </main>
+</Layout>

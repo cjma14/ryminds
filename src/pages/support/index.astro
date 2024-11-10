@@ -1,0 +1,14 @@
+---
+import { getCollection } from "astro:content";
+import Contact from "../../components/Contact";
+import Layout from "../../layouts/Layout.astro";
+const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
+
+const config = await getCollection("siteConfig");
+---
+
+<Layout title="Support">
+  <div class="pb-20 pt-40">
+    <Contact accessKey={web3AccessKey} config={config[0]?.data} client:load />
+  </div>
+</Layout>

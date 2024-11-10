@@ -1,0 +1,51 @@
+---
+import Lines from "../components/Lines";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import ScrollToTop from "../components/ScrollToTop";
+import SpeedInsights from "@vercel/speed-insights/astro";
+import { ViewTransitions } from "astro:transitions";
+import "../assets/globals.css";
+import { getCollection } from "astro:content";
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+const activePath = Astro.url.pathname;
+const siteConfig = await getCollection("siteConfig");
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <ViewTransitions />
+    <script>
+      // Script to handle dark mode. It will check if the theme is stored in localStorage or if dark theme is preferred by system settings
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
+  </head>
+  <body class={`dark:bg-black`}>
+    <Lines />
+    <Header activePath={activePath} config={siteConfig[0]?.data} client:load />
+    <slot />
+    <Footer config={siteConfig[0]?.data} client:load />
+    <ScrollToTop client:load />
+    <SpeedInsights />
+  </body>
+</html>

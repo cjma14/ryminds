@@ -1,0 +1,22 @@
+---
+import { getCollection } from "astro:content";
+import BlogItem from "../../components/Blog/BlogItem";
+import Layout from "../../layouts/Layout.astro";
+const blogs = await getCollection("blogs");
+---
+
+<Layout title="Blogs">
+  <section class="py-20 lg:py-25 xl:py-30">
+    <div class="mx-auto mt-15 max-w-c-1280 px-4 md:px-8 xl:mt-20 xl:px-0">
+      <div
+        class="grid grid-cols-1 gap-7.5 md:grid-cols-2 lg:grid-cols-3 xl:gap-10"
+      >
+        {
+          blogs.map((blog) => (
+            <BlogItem client:load blog={blog?.data} slug={blog?.slug} />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>
