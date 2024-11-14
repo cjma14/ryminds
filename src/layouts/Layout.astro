@@ -18,7 +18,7 @@ const siteConfig = await getCollection("siteConfig");
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es" class="lenis lenis-smooth scroll-pt-16">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
@@ -38,6 +38,9 @@ const siteConfig = await getCollection("siteConfig");
       } else {
         document.documentElement.classList.remove("dark");
       }
+    </script>
+    <script>
+      import "@scripts/lenisSmoothScroll.js";
     </script>
   </head>
   <body class={`dark:bg-black`}>
