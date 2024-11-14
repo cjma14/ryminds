@@ -28,17 +28,17 @@ const SingleBrand = ({
         transition={{ duration: 1, delay: (id + 1) / 4 }}
         viewport={{ once: true }}
         href={"#"}
-        className="animate_top mx-w-full relative block h-10 w-[98px]"
+        className="animate_top mx-w-full relative block h-10 w-[98px] mb-6"
       >
         <img
-          className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden"
+          className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden aspect-[4/3] w-[300px] object-contain"
           src={lightBrand}
           alt={"brand image"}
           loading="lazy"
           decoding="async"
         />
         <img
-          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block"
+          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block aspect-[4/3] w-[300px] object-contain"
           src={brand}
           alt={"brand image"}
           loading="lazy"

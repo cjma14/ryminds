@@ -51,7 +51,8 @@ export interface FeatureTab {
   title?: string;
   lightImg?: string;
   darkImg?: string;
-  desc?: string;
+  desc1?: string;
+  desc2?: string;
 }
 
 export interface Faq {

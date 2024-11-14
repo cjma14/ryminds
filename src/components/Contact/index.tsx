@@ -81,7 +81,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Send a message
+                Enviar un mensaje
               </h2>
 
               <form onSubmit={onSubmit}>
@@ -89,7 +89,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                   <input
                     type="text"
                     required
-                    placeholder="Full name"
+                    placeholder="Nombre completo"
                     name="name"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
@@ -98,7 +98,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                     type="email"
                     required
                     name="email"
-                    placeholder="Email address"
+                    placeholder="Correo"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
@@ -108,7 +108,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                     type="text"
                     required
                     name="subject"
-                    placeholder="Subject"
+                    placeholder="Asunto"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
 
@@ -116,14 +116,14 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                     type="text"
                     required
                     name="number"
-                    placeholder="Phone number"
+                    placeholder="Teléfono"
                     className="w-full border-b border-stroke bg-transparent pb-3.5 focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white lg:w-1/2"
                   />
                 </div>
 
                 <div className="mb-11.5 flex">
                   <textarea
-                    placeholder="Message"
+                    placeholder="Mensaje"
                     name="message"
                     rows={4}
                     className="w-full border-b border-stroke bg-transparent focus:border-waterloo focus:placeholder:text-black focus-visible:outline-none dark:border-strokedark dark:focus:border-manatee dark:focus:placeholder:text-white"
@@ -158,8 +158,8 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
-                      By clicking Checkbox, you agree to use our “Form” terms
-                      And consent cookie usage in browser.
+                     Al hacer clic en la casilla de verificación, aceptas utilizar nuestros términos de “Formulario”
+                    y aceptas el uso de cookies en tu navegador.
                     </label>
                   </div>
 
@@ -167,7 +167,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
                     aria-label="send message"
                     className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
-                    Send Message
+                    Enviar mensaje
                     <svg
                       className="fill-white"
                       width="14"
@@ -205,18 +205,18 @@ const Contact = ({ accessKey, config }: PropTypes) => {
               className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
             >
               <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Find us
+                Encuentranos
               </h2>
 
               <div className="5 mb-7">
-                <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
+                {/* <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>{config?.contact?.location}</p>
+                <p>{config?.contact?.location}</p> */}
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Email Address
+                  Correo
                 </h3>
                 <p>
                   <a href="#">{config?.contact?.email}</a>
@@ -224,7 +224,7 @@ const Contact = ({ accessKey, config }: PropTypes) => {
               </div>
               <div>
                 <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
-                  Phone Number
+                  Teléfono
                 </h4>
                 <p>
                   <a href="#">{config?.contact?.number}</a>

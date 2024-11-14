@@ -32,7 +32,7 @@ const Header = ({ activePath, config }: PropTypes) => {
     <header
       className={`fixed left-0 top-0 z-99999 w-full py-7 ${
         stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
+          ? "bg-white !py-6 shadow transition duration-100 dark:bg-black"
           : ""
       }`}
     >
@@ -42,18 +42,18 @@ const Header = ({ activePath, config }: PropTypes) => {
             <img
               src={config?.logoDark}
               alt="logo"
-              width={119.03}
+              width={200}
               height={30}
-              className="hidden w-full dark:block"
+              className="hidden dark:block"
               loading="lazy"
               decoding="async"
             />
             <img
               src={config?.logoLight}
               alt="logo"
-              width={119.03}
+              width={200}
               height={30}
-              className="w-full dark:hidden"
+              className="dark:hidden"
               loading="lazy"
               decoding="async"
             />
@@ -159,18 +159,18 @@ const Header = ({ activePath, config }: PropTypes) => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <ThemeToggler />
 
-            <a
+            {/* <a
               href="/auth/signin"
               className="text-regular font-medium text-black dark:text-gray-300 hover:text-primary dark:hover:text-blue-200"
             >
               Sign In
-            </a>
+            </a> */}
 
             <a
               href="/auth/signup"
               className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
-              Sign Up
+              Contactar
             </a>
           </div>
         </div>

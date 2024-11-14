@@ -1,6 +1,5 @@
 ---
-question: "Lorem ipsum dolor sit amet, consectetur"
+question: "¿Qué tipo de servicios ofrecen?"
 ans: >-
-  We provide digital experience services to startups and small businesses. We
-  help our clients succeed by creating brand identities, digital experiences.
+  Ofrecemos una amplia gama de servicios digitales, desde el desarrollo de software a medida hasta el diseño web y el marketing digital. Cubrimos todo el ciclo de vida de un proyecto, desde la concepción hasta la implementación y el mantenimiento.
 ---

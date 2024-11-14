@@ -1,10 +1,8 @@
 ---
 item:
-  - key: World Wide Clients
-    value: 500K
-  - key: Downloads
-    value: 1M+
-  - key: Winning Award
-    value: '865'
+  - key: Clientes en todo el mundo
+    value: 200
+  - key: Proyectos activos
+    value: 30
 ---
 

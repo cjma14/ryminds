@@ -69,12 +69,12 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <span className="font-medium uppercase text-black dark:text-white">
+              {/* <span className="font-medium uppercase text-black dark:text-white">
                 <span className="mb-4 mr-4 inline-flex rounded-full bg-meta px-4.5 py-1 text-metatitle uppercase text-white ">
                   New
                 </span>{" "}
                 {titles?.tag}
-              </span>
+              </span> */}
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 {titles?.title}
                 <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark">
@@ -125,7 +125,7 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
               className="animate_left md:w-1/2"
             >
               <h4 className="font-medium uppercase text-black dark:text-white">
-                Launch Your SaaS Fast
+                Resultados que hablan por sí solos
               </h4>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
                 {titlesSec?.title} {"   "}
@@ -140,7 +140,7 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
                   className="group mt-7.5 inline-flex items-center gap-2.5 text-black hover:text-primary dark:text-white dark:hover:text-primary"
                 >
                   <span className="duration-300 group-hover:pr-2">
-                    Know More
+                    Saber más
                   </span>
                   <svg
                     width="14"

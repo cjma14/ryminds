@@ -1,13 +1,7 @@
 import type { FeatureTab } from "../../types";
 
 const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
-  const { title, lightImg, darkImg } = featureTab;
-
-  const desc1 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat iure saepe maiores commodi, voluptatem provident repellendus cum dicta doloribus!";
-
-  const desc2 =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. In repellat iure saepe maiores commodi, voluptatem provident repellendus cum dicta doloribus!";
+  const { title, lightImg, darkImg, desc1, desc2 } = featureTab;
 
   return (
     <>
@@ -19,7 +13,7 @@ const FeaturesTabItem = ({ featureTab }: { featureTab: FeatureTab }) => {
           <p className="mb-5">{desc1}</p>
           <p className="w-11/12">{desc2}</p>
         </div>
-        <div className="relative mx-auto hidden aspect-[562/366] max-w-[550px] md:block md:w-1/2">
+        <div className="relative mx-auto hidden md:block md:w-1/2">
           <img
             src={lightImg as string}
             alt={title as string}

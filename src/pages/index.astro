@@ -30,7 +30,7 @@ const config = await getCollection("siteConfig");
 const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Ryminds - Tu idea, Nuestra Solución">
   <main>
     <Hero data={titles[0]?.data?.hero} client:load />
     <Brands
@@ -51,20 +51,23 @@ const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
       stats={stats[0]?.data?.item}
       client:load
     />
-    <Integration
+    <!-- <Integration
       titles={titles[0]?.data?.integrations}
       integrations={integrations[0]?.data?.integrations}
       client:load
-    />
-    <CTA titles={titles[0]?.data?.cta} client:load />
+    /> -->
+    <!-- <CTA titles={titles[0]?.data?.cta} client:load /> -->
     <FAQ titles={titles[0]?.data?.faq} faq={faq} client:load />
     <Testimonial
       titles={titles[0]?.data?.testimonial}
       testimonials={testimonials}
       client:load
     />
-    <Pricing titles={titles[0]?.data?.pricing} prices={prices} client:load />
-    <Contact accessKey={web3AccessKey} config={config[0]?.data} client:load />
-    <Blog titles={titles[0]?.data?.blogs} blogs={blogs} client:load />
+    <!-- <Pricing titles={titles[0]?.data?.pricing} prices={prices} client:load /> -->
+    <div class="mb-20">
+      <Contact accessKey={web3AccessKey} config={config[0]?.data} client:load />
+    </div>
+    
+    <!-- <Blog titles={titles[0]?.data?.blogs} blogs={blogs} client:load /> -->
   </main>
 </Layout>

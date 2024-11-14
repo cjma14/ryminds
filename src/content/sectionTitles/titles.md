@@ -1,44 +1,38 @@
 ---
 hero:
-  title: Great Astro JS Template for
-  highlightedText: SaaS
-  tag: Solid - A Complete SaaS Web Template
+  title: Tu idea,
+  highlightedText: Nuestra Solución
+  tag: Soliciones tecnólogicas con Ryminds
   desc: >-
-    Solid Pro - Packed with all the key integrations you need for swift SaaS
-    startup launch, including - Auth, Database, Sanity Blog, Essential
-    Components, Pages and More. Built-winth - Next.js 13, React 18 and
-    TypeScript.
-  lightImg: /images/hero/hero-light.svg
-  darkImg: /images/hero/hero-dark.svg
+    Transformamos tus ideas en soluciones tecnológicas únicas. Creamos aplicaciones y sistemas a medida que se adaptan perfectamente a tu negocio.
+  lightImg: /images/hero/hero-light2.svg
+  darkImg: /images/hero/hero-dark2.svg
 features:
-  title: Core Features of Solid
-  tag: SOLID FEATURES
+  title: Desarrollamos tu Negocio Digital
+  tag: TU VISIÓN, NUESTRA REALIDAD DIGITAL
   desc: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor
-    eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+    Optimiza tus procesos y aumenta tu productividad con nuestros servicios de desarrollo de software. ¡Tu empresa más eficiente, hoy!
 about:
-  title: A Complete Solution for
-  highlightedText: SaaS Startup
+  title: Conoce nuestro
+  highlightedText: Equipo
   tag: SAAS BOILERPLATE FOR NEXT.JS
   desc: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus
-    non fermentum ultrices. Fusce consectetur le.
-  lightImg: /images/about/about-light-01.png
-  darkImg: /images/about/about-dark-01.png
+    Somos un equipo de apasionados de la tecnología, dedicados a crear soluciones digitales a medida que superen las expectativas de nuestros clientes.  Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto en los negocios.  Nuestra pasión es construir relaciones duraderas basadas en la confianza y el compromiso.
+  lightImg: /images/about/meeting.jpg
+  darkImg: /images/about/meeting.jpg
 featureTab:
-  title: Packed with All Essential
-  tag: Integrations
+  title: Casos de 
+  tag: Éxito
   desc: >-
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus
     non fermentum ultrices. Fusce consectetur le.
   lightImg: /images/about/about-light-02.svg
   darkImg: /images/about/about-dark-02.svg
 funFact:
-  title: Trusted by Global Companies.
+  title: Con la confianza de empresas globales.
   tag: Companies
   desc: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor
-    eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+    Empresas globales confían en nosotros para impulsar su crecimiento y fortalecer su presencia en el mercado.
   img: /images/shape/shape-04.png
 integrations:
   title: 'Remotely Maintain Your Data, From Anywhere, Anytime.'
@@ -53,15 +47,14 @@ cta:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor
     eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
 faq:
-  title: Frequently Asked
-  highlightedText: Questions
-  tag: OUR FAQS
+  title: 'A tus preguntas:'
+  highlightedText: Respuestas
+  tag: Nuesto FAQS
 testimonial:
-  title: Client’s Testimonials
-  tag: TESTIMONIALS
+  title: Lo que dicen nuestros clientes
+  tag: TESTIMONIALES
   desc: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor
-    eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.
+    Descubre por qué nuestros clientes nos eligen una y otra vez.
 pricing:
   title: Simple Pricing
   tag: PRICING PLANS

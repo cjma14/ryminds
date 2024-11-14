@@ -1,13 +1,13 @@
 ---
-sieName: Solid
-logoLight: /images/logo/logo-light.svg
-logoDark: /images/logo/logo-dark.svg
-siteName: Solid
-desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+sieName: Ryminds
+logoLight: /images/logo/ryminds.png
+logoDark: /images/logo/ryminds-white.png
+siteName: Ryminds
+desc: 'Tu idea, Nuestra Solución.'
 contact:
   location: '290 Maryam Springs 260, Courbevoie, Paris, France'
-  email: themepirates.business@gmail.com
-  number: 9423346343843
+  email: rymindtechnologies@gmail.com
+  number: "+584262171399"
 links:
   fb: 'https://www.facebook.com'
   twitter: 'https://www.x.com'

@@ -1,7 +1,6 @@
 ---
-question: 'Lorem ipsum dolor sit amet, consectetur'
+question: '¿Ofrecen soporte técnico después de finalizar un proyecto?'
 ans: >-
-  We provide digital experience services to startups and small businesses. We
-  help our clients succeed by creating brand identities, digital experiences.
+  Sí, ofrecemos soporte técnico post-implementación para garantizar el correcto funcionamiento de las soluciones desarrolladas. Los planes de soporte pueden variar según las necesidades de cada cliente.
 ---
 

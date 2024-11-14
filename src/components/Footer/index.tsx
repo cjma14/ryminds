@@ -99,16 +99,24 @@ const Footer = ({ config }: PropTypes) => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Quick Links
+                    Enlaces rápidos
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Home
+                        Inicio
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="#Servicios"
+                        className="mb-3 inline-block hover:text-primary"
+                      >
+                        Servicios
                       </a>
                     </li>
                     <li>
@@ -116,23 +124,7 @@ const Footer = ({ config }: PropTypes) => {
                         href="#"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Product
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Careers
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Pricing
+                        Portafolio
                       </a>
                     </li>
                   </ul>
@@ -157,40 +149,24 @@ const Footer = ({ config }: PropTypes) => {
                   className="animate_top"
                 >
                   <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
-                    Support
+                    Apoyo
                   </h4>
 
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="#about-us"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Company
+                        Sobre nosotros
                       </a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#contact"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Press media
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/blog"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Our Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="/support"
-                        className="mb-3 inline-block hover:text-primary"
-                      >
-                        Contact Us
+                        Contactoi
                       </a>
                     </li>
                   </ul>
@@ -264,7 +240,7 @@ const Footer = ({ config }: PropTypes) => {
 
           {/* <!-- Footer Bottom --> */}
           <div className="flex flex-col flex-wrap items-center justify-center gap-5 border-t border-stroke py-7 dark:border-strokedark lg:flex-row lg:justify-between lg:gap-0">
-            <motion.div
+            {/* <motion.div
               variants={{
                 hidden: {
                   opacity: 0,
@@ -299,7 +275,7 @@ const Footer = ({ config }: PropTypes) => {
                   </a>
                 </li>
               </ul>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               variants={{
