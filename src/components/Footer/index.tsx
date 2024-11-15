@@ -43,7 +43,7 @@ const Footer = ({ config }: PropTypes) => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top w-full lg:w-1/4"
               >
                 <a href="index.html" className="relative">
                   <img
@@ -73,7 +73,7 @@ const Footer = ({ config }: PropTypes) => {
                 </p>
                 <a
                   href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  className="text-xl md:text-itemtitle font-medium text-black dark:text-white"
                 >
                   {config?.contact?.email}
                 </a>
@@ -166,13 +166,13 @@ const Footer = ({ config }: PropTypes) => {
                         href="#contact"
                         className="mb-3 inline-block hover:text-primary"
                       >
-                        Contactoi
+                        Contacto
                       </a>
                     </li>
                   </ul>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   variants={{
                     hidden: {
                       opacity: 0,
@@ -232,7 +232,7 @@ const Footer = ({ config }: PropTypes) => {
                       </button>
                     </div>
                   </form>
-                </motion.div>
+                </motion.div> */}
               </div>
             </div>
           </div>

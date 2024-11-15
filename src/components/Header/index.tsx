@@ -42,18 +42,14 @@ const Header = ({ activePath, config }: PropTypes) => {
             <img
               src={config?.logoDark}
               alt="logo"
-              width={200}
-              height={30}
-              className="hidden dark:block"
+              className="hidden dark:block w-[130px] md:w-[180px]"
               loading="lazy"
               decoding="async"
             />
             <img
               src={config?.logoLight}
               alt="logo"
-              width={200}
-              height={30}
-              className="dark:hidden"
+              className="dark:hidden w-[130px] md:w-[180px]"
               loading="lazy"
               decoding="async"
             />
