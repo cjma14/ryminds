@@ -79,7 +79,7 @@ const Footer = ({ config }: PropTypes) => {
                 </a>
               </motion.div>
 
-              <div className="flex w-full flex-col gap-8 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12">
+              <div className="flex w-full flex-col gap-8 md:flex-row md:gap-20 lg:w-2/3 xl:w-7/12">
                 <motion.div
                   variants={{
                     hidden: {
@@ -113,7 +113,7 @@ const Footer = ({ config }: PropTypes) => {
                     </li>
                     <li>
                       <a
-                        href="#Servicios"
+                        href="#servicios"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Servicios
@@ -121,7 +121,7 @@ const Footer = ({ config }: PropTypes) => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="#portfolio"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Portafolio
