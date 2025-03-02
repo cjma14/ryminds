@@ -7,7 +7,7 @@ desc: 'Tu idea, Nuestra Solución.'
 contact:
   location: '290 Maryam Springs 260, Courbevoie, Paris, France'
   email: rymindtechnologies@gmail.com
-  number: "+584262171399"
+  number: ""
 links:
   fb: 'https://www.facebook.com'
   twitter: 'https://www.x.com'
