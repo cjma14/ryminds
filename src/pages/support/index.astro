@@ -9,6 +9,6 @@ const config = await getCollection("siteConfig");
 
 <Layout title="Support">
   <div class="pb-20 pt-40">
-    <Contact accessKey={web3AccessKey} config={config[0]?.data} client:load />
+    <Contact config={config[0]?.data} client:load />
   </div>
 </Layout>
