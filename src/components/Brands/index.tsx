@@ -62,7 +62,7 @@ const Brands = ({ data, dataLight }: PropTypes) => {
               },
             }}>
             {data.map((item, key) => (
-              <SwiperSlide>
+              <SwiperSlide key={key}>
                 <SingleBrand
                   brand={item}
                   lightBrand={dataLight[key]}

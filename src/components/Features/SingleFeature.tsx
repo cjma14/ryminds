@@ -43,6 +43,8 @@ const SingleFeature = ({ feature }: PropTypes) => {
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
           {title}
+
+          aaa
         </h3>
         <p>{desc}</p>
       </motion.div>
