@@ -11,40 +11,24 @@ const SingleBrand = ({
 }) => {
   return (
     <>
-      <motion.a
-        variants={{
-          hidden: {
-            opacity: 0,
-            y: -20,
-          },
-
-          visible: {
-            opacity: 1,
-            y: 0,
-          },
-        }}
-        initial="hidden"
-        whileInView="visible"
-        transition={{ duration: 1, delay: (id + 1) / 4 }}
-        viewport={{ once: true }}
-        href={"#"}
-        className="animate_top mx-w-full relative block h-10 w-[98px] mb-6"
+      <div
+        className="flex flex-col gap-4 items-center justify-center"
       >
         <img
-          className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden aspect-[4/3] w-[300px] object-contain"
+          className="opacity-65 transition-all duration-300 hover:opacity-100 dark:hidden aspect-[4/3] w-[100px] object-contain"
           src={lightBrand}
           alt={"brand image"}
           loading="lazy"
           decoding="async"
         />
         <img
-          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block aspect-[4/3] w-[300px] object-contain"
+          className="hidden opacity-50 transition-all duration-300 hover:opacity-100 dark:block aspect-[4/3] w-[100px] object-contain"
           src={brand}
           alt={"brand image"}
           loading="lazy"
           decoding="async"
         />
-      </motion.a>
+      </div>
     </>
   );
 };

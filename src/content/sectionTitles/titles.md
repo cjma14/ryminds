@@ -4,7 +4,7 @@ hero:
   highlightedText: idea en éxito
   tag: Desarrollo de Software
   desc: >-
-    En Ryminds creamos aplicaciones personalizadas que impulsan tu negocio.
+    En Ryminds creamos aplicaciones webs y mobiles que impulsan tu negocio.
   lightImg: /images/hero/hero-light2.svg
   darkImg: /images/hero/hero-dark2.svg
 features:
