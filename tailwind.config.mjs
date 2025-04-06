@@ -32,6 +32,7 @@ export default {
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
         teal: colors.teal,
+        secondary: "#94a3b8",
       },
       fontSize: {
         metatitle: ["12px", "20px"],

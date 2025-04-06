@@ -164,7 +164,17 @@ const Header = ({ activePath, config }: PropTypes) => {
 
             <a
               href="/#contact"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
+              className="rounded-full 
+              bg-gradient-to-r 
+              from-[#0eaffc] 
+              to-[#7612e5] 
+              px-7.5 
+              py-2.5 
+              text-white 
+              transition-all 
+              duration-500 
+              ease-in-out 
+              hover:scale-105"
             >
               Contactar
             </a>

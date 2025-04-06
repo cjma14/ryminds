@@ -103,7 +103,7 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
         </div>
       </section>
 
-      <section>
+      <section id="portafolio">
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div

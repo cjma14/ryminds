@@ -1,10 +1,10 @@
 ---
 hero:
-  title: Tu idea,
-  highlightedText: Nuestra Solución
-  tag: Soliciones tecnólogicas con Ryminds
+  title: Transformamos tu 
+  highlightedText: idea en éxito
+  tag: Desarrollo de Software
   desc: >-
-    Transformamos tus ideas en soluciones tecnológicas únicas. Creamos aplicaciones y sistemas a medida que se adaptan perfectamente a tu negocio.
+    En Ryminds creamos aplicaciones personalizadas que impulsan tu negocio.
   lightImg: /images/hero/hero-light2.svg
   darkImg: /images/hero/hero-dark2.svg
 features:
