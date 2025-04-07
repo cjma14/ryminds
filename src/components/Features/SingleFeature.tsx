@@ -6,9 +6,10 @@ interface PropTypes {
     desc: string;
     img: string;
   };
+  id: number;
 }
 
-const SingleFeature = ({ feature }: PropTypes) => {
+const SingleFeature = ({ feature, id }: PropTypes) => {
   const { img, title, desc } = feature;
 
   return (
@@ -27,9 +28,9 @@ const SingleFeature = ({ feature }: PropTypes) => {
         }}
         initial="hidden"
         whileInView="visible"
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 1, delay: (id + 1) / 4 }}
         viewport={{ once: true }}
-        className="animate_top z-40 rounded-lg border border-white bg-white p-7.5 shadow-solid-3 transition-all hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
+        className="rounded-lg border border-white bg-white p-7.5 shadow-solid-3 hover:shadow-solid-4 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
       >
         <div className="relative flex h-16 w-16 items-center justify-center rounded-[4px] bg-primary">
           <img
@@ -43,9 +44,7 @@ const SingleFeature = ({ feature }: PropTypes) => {
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
           {title}
-
-          aaa
-        </h3>
+        </h3> 
         <p>{desc}</p>
       </motion.div>
     </>

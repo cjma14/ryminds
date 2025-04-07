@@ -8,7 +8,9 @@ export interface TitlesAbout {
   title: string;
   highlightedText: string;
   tag: string;
-  desc: string;
+  desc?: string;
+  desc_1?: string;
+  desc_2?: string;
   lightImg: string;
   darkImg: string;
 }
@@ -29,7 +31,6 @@ export interface TitlesFaq {
 export interface TitlesFeatureTab {
   title: string;
   tag: string;
-  desc: string;
   lightImg: string;
   darkImg: string;
 }

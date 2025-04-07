@@ -30,7 +30,7 @@ const config = await getCollection("siteConfig");
 const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
 ---
 
-<Layout title="Ryminds - Tu idea, Nuestra Solución">
+<Layout title="Ryminds - Desarrollo de Software">
   <main>
     <Hero data={titles[0]?.data?.hero} client:load />
     <Brands
@@ -64,9 +64,8 @@ const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
       client:load
     />
     <!-- <Pricing titles={titles[0]?.data?.pricing} prices={prices} client:load /> -->
-    <div class="mb-20">
-      <Contact config={config[0]?.data} client:load />
-    </div>
+    <Contact config={config[0]?.data} client:load />
+    
     
     <!-- <Blog titles={titles[0]?.data?.blogs} blogs={blogs} client:load /> -->
   </main>

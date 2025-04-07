@@ -20,7 +20,7 @@ const Hero = ({ data }: PropTypes) => {
 
   return (
     <>
-      <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+      <section className="overflow-hidden pb-15 pt-35 md:pt-40 xl:pb-25 xl:pt-46 px-5 md:px-0">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
             <div className=" md:w-1/2">

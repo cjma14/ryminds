@@ -8,16 +8,19 @@ hero:
   lightImg: /images/hero/hero-light2.svg
   darkImg: /images/hero/hero-dark2.svg
 features:
-  title: Desarrollamos tu Negocio Digital
   tag: TU VISIÓN, NUESTRA REALIDAD DIGITAL
+  title: Desarrollamos tu
+  highlightedText: Negocio Digital
   desc: >-
     Optimiza tus procesos y aumenta tu productividad con nuestros servicios de desarrollo de software. ¡Tu empresa más eficiente, hoy!
 about:
   title: Conoce nuestro
   highlightedText: Equipo
   tag: SAAS BOILERPLATE FOR NEXT.JS
-  desc: >-
-    Somos un equipo de apasionados de la tecnología, dedicados a crear soluciones digitales a medida que superen las expectativas de nuestros clientes.  Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto en los negocios.  Nuestra pasión es construir relaciones duraderas basadas en la confianza y el compromiso.
+  desc_1: >-
+    Somos un equipo de apasionados de la tecnología, dedicados a crear soluciones digitales a medida que superen las expectativas de nuestros clientes. Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto negocios.
+  desc_2: >-
+    Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto en los negocios.  Nuestra pasión es construir relaciones duraderas basadas en la confianza y el compromiso.
   lightImg: /images/about/meeting.jpg
   darkImg: /images/about/meeting.jpg
 featureTab:

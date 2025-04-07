@@ -52,8 +52,8 @@ const Contact = ({ config }) => {
   }
 
   return (
-    <section id="contact" className="px-0 md:px-8 2xl:px-0">
-      <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
+    <section id="contact" className="px-0 md:px-8 2xl:px-0 mb-20">
+      <div className="relative mx-auto max-w-c-1390 px-9 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
         <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
         <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
           <img
@@ -72,7 +72,7 @@ const Contact = ({ config }) => {
           />
         </div>
 
-        <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
+        <div className="flex flex-col-reverse flex-wrap md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
           <motion.div
             variants={{
               hidden: { opacity: 0, y: -20 },

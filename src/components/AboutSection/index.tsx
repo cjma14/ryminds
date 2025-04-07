@@ -15,7 +15,7 @@ interface PropTypes {
 const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
   return (
     <>
-      <section id="about-us" className="overflow-hidden pb-20 lg:pb-25 xl:pb-30">
+      <section id="about-us" className="overflow-hidden pb-12 px-5 md:px-0">
         <div className="mx-auto max-w-c-1235 px-4 md:px-8 xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
@@ -87,14 +87,14 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
                 <div key={index} className="mt-7.5 flex items-center gap-5">
                   <div className="flex h-15 w-15 items-center justify-center rounded-[50%] border border-stroke dark:border-strokedark dark:bg-blacksection">
                     <p className="text-metatitle2 font-semibold text-black dark:text-white">
-                      0{index}
+                      0{index + 1}
                     </p>
                   </div>
                   <div className="w-3/4">
                     <h3 className="mb-0.5 text-metatitle2 text-black dark:text-white">
                       {item?.data?.title}
                     </h3>
-                    <p>{item?.data?.subTitle}</p>
+                    <p className="text-md">{item?.data?.subTitle}</p>
                   </div>
                 </div>
               ))}
@@ -103,7 +103,7 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
         </div>
       </section>
 
-      <section id="portafolio">
+      <section id="portafolio" className="px-5 md:px-0">
         <div className="mx-auto max-w-c-1235 overflow-hidden px-4 md:px-8 2xl:px-0">
           <div className="flex items-center gap-8 lg:gap-32.5">
             <motion.div
@@ -133,7 +133,9 @@ const AboutSection = ({ titles, data, titlesSec }: PropTypes) => {
                   {titlesSec?.tag}
                 </span>
               </h2>
-              <p>{titles?.desc}</p>
+              <p>{titles?.desc_1}</p>
+              <br></br>
+              <p>{titles?.desc_2}</p>
               <div>
                 <a
                   href="#"

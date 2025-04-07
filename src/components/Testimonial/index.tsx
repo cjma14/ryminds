@@ -20,7 +20,7 @@ interface PropTypes {
 const Testimonial = ({ titles, testimonials }: PropTypes) => {
   return (
     <>
-      <section>
+      <section className="px-5 md:px-0 mb-0 md:mt-10">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           <div className="animate_top mx-auto text-center">
             <SectionHeader
@@ -49,9 +49,9 @@ const Testimonial = ({ titles, testimonials }: PropTypes) => {
           whileInView="visible"
           transition={{ duration: 1, delay: 0.1 }}
           viewport={{ once: true }}
-          className="animate_top mx-auto mt-15 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
+          className="animate_top mx-auto mt-10 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
         >
-          <div className="swiper testimonial-01 mb-20 pb-22.5">
+          <div className="swiper testimonial-01 mb-12 pb-12">
             <Swiper
               spaceBetween={50}
               slidesPerView={2}

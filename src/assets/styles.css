@@ -16,7 +16,7 @@ html {
 }
 
 .testimonial-01 .swiper-pagination {
-  @apply relative pt-[50px];
+  @apply relative pt-[12px];
 }
 
 #supportCheckbox:checked ~ div span {

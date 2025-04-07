@@ -14,7 +14,7 @@ const FeaturesTab = ({ data }: PropTypes) => {
 
   return (
     <>
-      <section id="portfolio" className="relative pb-20 pt-18.5 lg:pb-22.5">
+      <section  className="relative pb-20 pt-10 lg:pb-22.5 px-5 md:px-0">
         <div className="relative mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <div className="absolute -top-16 -z-1 mx-auto h-[350px] w-[90%]">
             <img
