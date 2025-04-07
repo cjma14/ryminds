@@ -14,8 +14,8 @@ const Integration = ({ titles, integrations }: PropTypes) => {
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           <SectionHeader
             headerInfo={{
-              title: titles?.tag,
-              subtitle: titles?.title,
+              tag: titles?.tag,
+              title: titles?.title,
               description: titles?.desc,
             }}
           />

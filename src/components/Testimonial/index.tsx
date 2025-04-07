@@ -25,8 +25,8 @@ const Testimonial = ({ titles, testimonials }: PropTypes) => {
           <div className="animate_top mx-auto text-center">
             <SectionHeader
               headerInfo={{
-                title: titles?.tag,
-                subtitle: titles?.title,
+                tag: titles?.tag,
+                title: titles?.title,
                 description: titles?.desc,
               }}
             />

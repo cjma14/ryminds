@@ -30,7 +30,7 @@ const Hero = ({ data }: PropTypes) => {
                 </h4>
               </div>
 
-              <h1 className="mb-5 text-3xl font-bold text-black dark:text-white xl:text-hero text-center">
+              <h1 className="mb-5 text-4xl md:text-6xl font-bold text-black dark:text-white text-center">
                 {data?.title} {"   "}
                 <span className="bg-gradient-to-r from-[#0eaffc] to-[#7612e5] bg-clip-text text-transparent">
                   {data?.highlightedText}

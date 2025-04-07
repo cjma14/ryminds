@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 type HeaderInfo = {
   title: string;
-  highlightedText: string;
+  highlightedText?: string;
   tag: string;
   description: string;
 };
