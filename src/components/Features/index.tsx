@@ -13,7 +13,7 @@ const Feature = ({ data, titles }: PropTypes) => {
   const { title, tag, desc, highlightedText } = titles;
   return (
     <>
-      <section id="services" className="py-1 px-5 md:px-0">
+      <section id="services" className="py-12 px-5 md:px-0">
         <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
           <SectionHeader
             headerInfo={{
