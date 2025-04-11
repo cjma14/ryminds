@@ -26,6 +26,7 @@ const Testimonial = ({ titles, testimonials }: PropTypes) => {
             <SectionHeader
               headerInfo={{
                 tag: titles?.tag,
+                highlightedText: titles?.highlightedText,
                 title: titles?.title,
                 description: titles?.desc,
               }}

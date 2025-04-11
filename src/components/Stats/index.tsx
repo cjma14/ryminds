@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import type { TitlesFunFact } from "../../types";
+import type { TitlesStatsFact } from "../../types";
 
 interface PropTypes {
-  titles: TitlesFunFact;
+  titles: TitlesStatsFact;
   stats: {
     key: string;
     value: string;
@@ -67,7 +67,10 @@ const FunFact = ({ titles, stats }: PropTypes) => {
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
             <h2 className="mb-4 text-3xl font-bold text-black dark:text-white xl:text-sectiontitle3">
-              {titles?.title}
+              {titles?.title}  {"   "}
+              <span className="bg-gradient-to-r from-[#0eaffc] to-[#7612e5] bg-clip-text text-transparent">
+                  {titles?.highlightedText}
+              </span>
             </h2>
             <p className="mx-auto lg:w-11/12">{titles?.desc}</p>
           </motion.div>

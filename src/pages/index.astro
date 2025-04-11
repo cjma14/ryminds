@@ -4,8 +4,8 @@ import Hero from "../components/Hero";
 import Brands from "../components/Brands";
 import Feature from "../components/Features";
 import AboutSection from "../components/AboutSection";
-import FeaturesTab from "../components/FeaturesTab";
-import FunFact from "../components/FunFact";
+import PortafolioTab from "../components/PortafolioTab";
+import Stats from "../components/Stats";
 import Integration from "../components/Integration";
 import CTA from "../components/CTA";
 import FAQ from "../components/FAQ";
@@ -14,6 +14,7 @@ import Pricing from "../components/Pricing";
 import Contact from "../components/Contact";
 import Blog from "../components/Blog";
 import { getCollection } from "astro:content";
+
 
 const titles = await getCollection("sectionTitles");
 const brands = await getCollection("brands");
@@ -32,32 +33,45 @@ const web3AccessKey = import.meta.env.VITE_WEB3FROM_ACCESSKEY;
 
 <Layout title="Ryminds - Desarrollo de Software">
   <main>
-    <Hero data={titles[0]?.data?.hero} client:load />
+    <Hero 
+      data={titles[0]?.data?.hero} 
+      client:load />
+
     <Brands
       data={brands[0]?.data?.brandsDark}
       dataLight={brands[0]?.data?.brandsLight}
-      client:load
-    />
-    <Feature data={features} titles={titles[0]?.data?.features} client:load />
+      client:load/>
+
+    <Feature 
+      data={features} 
+      titles={titles[0]?.data?.features} 
+      client:load />
+
     <AboutSection
       data={aboutData}
       titles={titles[0]?.data?.about}
-      titlesSec={titles[0]?.data?.featureTab}
       client:load
     />
-    <FeaturesTab data={featureTabs} client:load />
-    <FunFact
-      titles={titles[0]?.data?.funFact}
+    <PortafolioTab 
+      data={featureTabs} 
+      titles={titles[0]?.data?.portafolioTab}
+      client:load />
+      
+    <Stats
+      titles={titles[0]?.data?.stats}
       stats={stats[0]?.data?.item}
-      client:load
-    />
+      client:load/>
     <!-- <Integration
       titles={titles[0]?.data?.integrations}
       integrations={integrations[0]?.data?.integrations}
       client:load
     /> -->
     <!-- <CTA titles={titles[0]?.data?.cta} client:load /> -->
-    <FAQ titles={titles[0]?.data?.faq} faq={faq} client:load />
+    <FAQ 
+      titles={titles[0]?.data?.faq} 
+      faq={faq} 
+      client:load />
+      
     <Testimonial
       titles={titles[0]?.data?.testimonial}
       testimonials={testimonials}

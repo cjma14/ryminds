@@ -1,10 +1,10 @@
 ---
 hero:
-  title: Transformamos tu 
-  highlightedText: idea en éxito
+  title: Transformamos tu idea en
+  highlightedText: software exitoso
   tag: Desarrollo de Software
   desc: >-
-    En Ryminds creamos aplicaciones webs y mobiles que impulsan tu negocio.
+    Desarrollamos aplicaciones web y móviles que optimizan la gestión de tu negocio.
   lightImg: /images/hero/hero-light2.svg
   darkImg: /images/hero/hero-dark2.svg
 features:
@@ -12,30 +12,28 @@ features:
   title: Desarrollamos tu
   highlightedText: Negocio Digital
   desc: >-
-    Optimiza tus procesos y aumenta tu productividad con nuestros servicios de desarrollo de software. ¡Tu empresa más eficiente, hoy!
+    Optimiza tus procesos y aumenta tu productividad con nuestras soluciones de desarrollo de software a medida. ¡Haz que tu empresa sea más eficiente hoy!
 about:
   title: Conoce nuestro
-  highlightedText: Equipo
-  tag: SAAS BOILERPLATE FOR NEXT.JS
+  highlightedText: equipo de Expertos
+  tag: test
+  lightImg: /images/about/meeting.jpg
+  darkImg: /images/about/meeting.jpg
+portafolioTab:
+  title: Casos de 
+  highlightedText: Éxito
   desc_1: >-
     Somos un equipo de apasionados de la tecnología, dedicados a crear soluciones digitales a medida que superen las expectativas de nuestros clientes. Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto negocios.
   desc_2: >-
     Con un enfoque en la innovación y la calidad, transformamos ideas en realidad, optimizando procesos y generando un mayor impacto en los negocios.  Nuestra pasión es construir relaciones duraderas basadas en la confianza y el compromiso.
-  lightImg: /images/about/meeting.jpg
-  darkImg: /images/about/meeting.jpg
-featureTab:
-  title: Casos de 
-  tag: Éxito
-  desc: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultricies lacus
-    non fermentum ultrices. Fusce consectetur le.
   lightImg: /images/about/about-light-02.svg
   darkImg: /images/about/about-dark-02.svg
-funFact:
-  title: Con la confianza de empresas globales.
+stats:
+  title: Con la confianza de
+  highlightedText: empresas globales
   tag: Companies
   desc: >-
-    Empresas globales confían en nosotros para impulsar su crecimiento y fortalecer su presencia en el mercado.
+    Empresas y profecionales globales confían en nosotros para impulsar su crecimiento y fortalecer su presencia en el mercado, gracias a nuestras soluciones innovadoras y efectivas.
   img: /images/shape/shape-04.png
 integrations:
   title: 'Remotely Maintain Your Data, From Anywhere, Anytime.'
@@ -54,7 +52,8 @@ faq:
   highlightedText: Respuestas
   tag: Nuesto FAQS
 testimonial:
-  title: Lo que dicen nuestros clientes
+  title: Lo que dicen
+  highlightedText: nuestros clientes
   tag: TESTIMONIALES
   desc: >-
     Descubre por qué nuestros clientes nos eligen una y otra vez.

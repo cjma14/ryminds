@@ -1,5 +1,6 @@
 export interface Titles {
   title: string;
+  highlightedText: string;
   tag: string;
   desc: string;
 }
@@ -15,9 +16,10 @@ export interface TitlesAbout {
   darkImg: string;
 }
 
-export interface TitlesFunFact {
+export interface TitlesStatsFact {
   title: string;
   tag: string;
+  highlightedText: string;
   desc: string;
   img: string;
 }
@@ -28,9 +30,12 @@ export interface TitlesFaq {
   tag: string;
 }
 
-export interface TitlesFeatureTab {
+export interface TitlesPortafolioTab {
   title: string;
   tag: string;
+  highlightedText: string;
+  desc_1: string;
+  desc_2: string;
   lightImg: string;
   darkImg: string;
 }

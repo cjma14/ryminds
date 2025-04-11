@@ -59,8 +59,8 @@ const FAQ = ({ titles, faq }: PropTypes) => {
                 {titles?.tag}
               </span>
               <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero">
-                {titles?.title}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg2 dark:before:bg-titlebgdark">
+                {titles?.title} {"   "}
+                <span className="bg-gradient-to-r from-[#0eaffc] to-[#7612e5] bg-clip-text text-transparent">
                   {titles?.highlightedText}
                 </span>
               </h2>
