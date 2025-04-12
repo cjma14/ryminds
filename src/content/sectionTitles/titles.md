@@ -17,8 +17,8 @@ about:
   title: Conoce nuestro
   highlightedText: equipo de Expertos
   tag: test
-  lightImg: /images/about/meeting.jpg
-  darkImg: /images/about/meeting.jpg
+  lightImg: /images/about/meeting-2.jpg
+  darkImg: /images/about/meeting-2.jpg
 portafolioTab:
   title: Casos de 
   highlightedText: Éxito
@@ -33,7 +33,7 @@ stats:
   highlightedText: empresas globales
   tag: Companies
   desc: >-
-    Empresas y profecionales globales confían en nosotros para impulsar su crecimiento y fortalecer su presencia en el mercado, gracias a nuestras soluciones innovadoras y efectivas.
+    Empresas y profesionales globales confían en nosotros para impulsar su crecimiento y fortalecer su presencia en el mercado, gracias a nuestras soluciones innovadoras y efectivas.
   img: /images/shape/shape-04.png
 integrations:
   title: 'Remotely Maintain Your Data, From Anywhere, Anytime.'

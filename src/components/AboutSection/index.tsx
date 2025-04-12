@@ -38,14 +38,14 @@ const AboutSection = ({ titles, data }: PropTypes) => {
               <img
                 src={titles?.lightImg}
                 alt="About"
-                className="dark:hidden"
+                className="dark:hidden rounded-lg"
                 loading="lazy"
                 decoding="async"
               />
               <img
                 src={titles?.darkImg}
                 alt="About"
-                className="hidden dark:block"
+                className="hidden dark:block rounded-lg"
                 loading="lazy"
                 decoding="async"
               />

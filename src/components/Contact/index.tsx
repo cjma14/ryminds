@@ -171,7 +171,7 @@ const Contact = ({ config }) => {
             viewport={{ once: true }}
             className="animate_top w-full md:w-2/5 md:p-7.5 lg:w-[26%] xl:pt-15"
           >
-            <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
+            <h2 className="mb-12.5 text-3xl font-semibold xl:text-sectiontitle2 bg-gradient-to-r from-[#0eaffc] to-[#7612e5] bg-clip-text text-transparent">
               Contacto
             </h2>
 
